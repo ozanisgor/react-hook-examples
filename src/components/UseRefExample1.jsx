@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 
-function UseRefExample() {
+function UseRefExample1() {
   const inputRef = useRef()
   const paraRef = useRef()
 
@@ -14,6 +14,7 @@ function UseRefExample() {
 
   return (
     <div>
+      <h2>Example 1</h2>
       <form onSubmit={onSubmit}>
         <label htmlFor="name">Name</label>
         <input
@@ -38,4 +39,4 @@ function UseRefExample() {
     </div>
   )
 }
-export default UseRefExample
+export default UseRefExample1
