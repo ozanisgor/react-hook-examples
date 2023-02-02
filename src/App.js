@@ -3,6 +3,7 @@ import UseRefExample2 from './components/UseRefExample2'
 import UseRefExample3 from './components/UseRefExample3'
 import UseMemoExample from './components/UseMemoExample'
 import UseCallbackExample from './components/UseCallbackExample'
+import CustomHookExample1 from './components/CustomHookExample1'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <UseMemoExample />
       <p>********************************</p>
       <UseCallbackExample />
+      <p>********************************</p>
+      <CustomHookExample1 />
     </div>
   )
 }
